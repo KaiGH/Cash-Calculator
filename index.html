@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Site Information -->
+	<title>Calculate Change - Cash Calculator UK</title>
+	<link rel="icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<!-- Metadata -->
+	<meta name="description" content="Calculate the amount of cash and coins you'll get from an amount of money.">
+	<meta name="keywords" content="cash calculator, change calculator, calculator, uk, britain, england, pound, pence, cash, coins">
+	
+	<!-- CSS -->
+	<link rel = "stylesheet" href="http://kaitaylor.xyz/style.css">
+</head>
+
+<body class="text-container">
+	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+		<!-- Header / Menu Bar -->
+		<header class="masthead mb-auto">
+			<div class="inner">
+				<h3 class="masthead-brand">Cash Calculator</h3>
+				<!-- Navigation Bar / Page Switcher -->
+				<nav class="nav nav-masthead justify-content-center">
+					<a class="nav-link" href="https://kaitaylor.xyz">Homepage</a>
+					<a class="nav-link active" href="https://kaitaylor.xyz/Cash_Calculator">Cash Calculator</a>
+					<a class="nav-link" href="https://github.com/KaiGH/Cash_Calculator">Source Code</a>
+				</nav>
+			</div>
+		</header>
+		
+		<!-- Main Content -->
+		<main role="main" class="inner cover">
+			<!-- Input Field -->
+			<b>Input: &pound;<input type="number" id="input">
+			</input><button id="submit">Submit</button></b><br><br>
+			
+			<!-- Output Table -->
+			<center><table>
+				<tr>
+					<th>&pound;50 Notes</th>
+					<th>&pound;20 Notes</th>
+					<th>&pound;10 Notes</th>
+					<th> &pound;5 Notes</th>
+					<th> &pound;2 Coins</th>
+					<th> &pound;1 Coins</th>
+				</tr>
+				<tr>
+					<td><p id="Id0"></p></td>
+					<td><p id="Id1"></p></td>
+					<td><p id="Id2"></p></td>
+					<td><p id="Id3"></p></td>
+					<td><p id="Id4"></p></td>
+					<td><p id="Id5"></p></td>
+				</tr>
+				<tr>
+					<th>50p Coins</th>
+					<th>20p Coins</th>
+					<th>10p Coins</th>
+					<th> 5p Coins</th>
+					<th> 2p Coins</th>
+					<th> 1p Coins</th>
+				</tr>
+				<tr>
+					<td><p id="Id6"></p></td>
+					<td><p id="Id7"></p></td>
+					<td><p id="Id8"></p></td>
+					<td><p id="Id9"></p></td>
+					<td><p id="Id10"></p></td>
+					<td><p id="Id11"></p></td>
+				</tr>
+				<tr>
+				</table></center>
+			</main>
+			
+		<!-- Footer -->
+		<footer class="mastfoot mt-auto">
+			<script type="text/javascript"> document.write("Last Updated: " + document.lastModified);</script>
+		</footer>
+	</div>
+		
+	<!-- JavaScript Cash Calculator -->
+	<script type="text/javascript" src="cash.js"></script>
+</body>
+</html>
